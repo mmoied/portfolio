@@ -121,7 +121,7 @@ STATIC_URL = '/static/'
 # os.path.join(BASE_DIR, "static"),
 # '/static/',
 # ]
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'polls/static')
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Static files (CSS, JavaScript, Images)
