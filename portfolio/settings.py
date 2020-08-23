@@ -25,7 +25,7 @@ SECRET_KEY = 'i29s1gugrr4w6vv63-4*zr2)&ovck35eu_yh1=a9h^fn_k93qq'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['portfolio-moied.herokuapp.com']
+ALLOWED_HOSTS = ['portfolio-moied.herokuapp.com','127.0.0.1']
 
 
 # Application definition
