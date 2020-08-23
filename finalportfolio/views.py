@@ -2,5 +2,5 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 
-def hello(request):
-          return HttpResponse("<H1>Hello World</H1>")  
+def index(request):
+    return render(request, 'finalportfolio/index.html', {}) 

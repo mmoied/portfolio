@@ -32,6 +32,7 @@ ALLOWED_HOSTS = ['portfolio-moied.herokuapp.com','127.0.0.1']
 
 INSTALLED_APPS = [
     'polls.apps.PollsConfig',
+    'finalportfolio.apps.FinalportfolioConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
