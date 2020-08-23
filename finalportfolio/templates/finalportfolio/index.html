@@ -1,16 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Muhammad Moied</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+   {% load static %}
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style type="text/css">
+  	html *
+{
+   font-family: Courier New !important;
+   font-size: 18px
+}
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+  </style>
 </head>
-<body style="background-color: #2d313e">
-  <h1 class="text-center" style="color: white;font-family: Courier New">Muhammad Moied</h1>
+<body style="background-color: rgba(45,49,62,0.9);">
+  <h1 class="text-center" style="color: white;font-size: 40px";>Muhammad Moied</h1>
+   <div class="container text-center" style="margin-top: 2%;background-color: #2d313e;border-radius: 20px">
   <ul class="nav justify-content-center">
     <li class="nav-item">
       <a class="nav-link" style="color: #fc0fc0" href="#">Home</a>
@@ -25,6 +59,26 @@
       <a class="nav-link disabled" href="#">Open CV</a>
     </li>
   </ul>
+</div>
+  <div class="container text-left mw-75" style="margin-top: 2%;background-color: #2d313e;border-radius: 20px;color: white;padding: 20px">
+   <div class="row">
+    <div class="col-sm-9">
+    	<h2 style=" font-size: 25px;font-weight: bold">About Me</h2>
+		An ambitious software engineer with 3 years of experience in object-oriented and functional programming, database
+		management and app development.<br> I am a final year BSc-Computer Science(Hons) student in
+		Heriot Watt University, Dubai. <br>Seeking an opportunity that allows me to utilize my problem-solving, analytical
+		skills and my programming knowledge.
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+    </div>
+    <div class="col-sm-3" >
+    	<img src=" {% static 'finalportfolio/images/author-2.jpg'  %}"  class="mx-auto d-block img-fluid" alt="Cinque Terre" style="max-width: 60%;border-radius: 10%;padding-bottom: 10px">
+    </div>
+  </div>
+</div>
 </body>
 </html>
 
