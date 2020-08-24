@@ -3,4 +3,5 @@ from . import views
 app_name='finalportfolio'
 urlpatterns = [
     path ('',views.index,name='index'),
+    path ('work/',views.work,name='work'),
 ]

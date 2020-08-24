@@ -29,7 +29,7 @@ max-width: 40px
       <a class="nav-link disabled"  href="#">Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" style="color:#fc0fc0"href="#">Work Experience</a>
+      <a class="nav-link" style="color:#fc0fc0"href="{% url 'finalportfolio:work' %}">Work Experience</a>
     </li>
     <li class="nav-item">
       <a class="nav-link"style="color: #fc0fc0" href="#">Projects</a>
@@ -42,7 +42,7 @@ max-width: 40px
   <div class="container text-left mw-75" style="margin-top: 2%;background-color: #2d313e;border-radius: 20px;color: white;padding: 20px">
    <div class="row">
     <div class="col-sm-9">
-    	<h2 style=" font-size: 25px;font-weight: bold">About Me</h2>
+    	<h1 class="signature h1" style=" color: white">About Me</h1>
 An ambitious software engineer with 3 years of experience in object-oriented and functional programming, database
 management and app development.<br> I am a final year BSc-Computer Science(Hons) student in
 Heriot Watt University, Dubai. <br>Seeking an opportunity that allows me to utilize my problem-solving, analytical
@@ -58,6 +58,56 @@ skills and my programming knowledge.
     	<img src=" {% static 'finalportfolio/images/author-2.jpg'  %}"  class="mx-auto d-block img-fluid" alt="Muhammad Moied" style="max-width: 70%;border-radius: 10%;">
     </div>
   </div>
+</div>
+
+
+  <div class="container text-left mw-75" style="margin-top: 2%;background-color: #2d313e;border-radius: 20px;color: white;padding: 20px">
+  	    	<h1 class="signature h1" style=" color: white">Education</h1>
+   <div class="row">
+    <div class="col-sm-9">
+    	<p>
+		<p style="color: #fc0fc0;">BSc Hons - Computer Science</p>
+		Heriot Watt University, Dubai
+		<br>3rd year completed with Cumulative GPA 4.0</p>
+    </div>
+    <div class="col-sm-3" >
+    	<span style="color:#fc0fc0;">(2018-2021)</span>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-9">
+    		<p>
+    	<p style="color: #fc0fc0;">A levels</p>
+		The Westminster School, Dubai
+		<br>Mathematics-A Computer Science-A Physics-B </p>
+    		</p>
+    </div>
+    <div class="col-sm-3" >
+    	<span style="color:#fc0fc0;">(2018-2021)</span>
+    </div>
+  </div>
+</div>
+
+
+  <div class="container text-left mw-75" style="margin-top: 2%;background-color: #2d313e;border-radius: 20px;color: white;padding: 20px">
+		<div class="row mb-5" style="margin-bottom: 0px">
+		  <div class="col-md">
+			 <h3 class="signature h5" style="color: white">Certification</h3>
+			  <p style="color:#A2A4AA "><span style="color:#fc0fc0 ">Flutter:</span> <br>The Complete 2020 Flutter Development Bootcamp with Dart </p>
+			  <p style="color:#A2A4AA "><span style="color:#fc0fc0 ">Python:</span>  <br>Machine Learning, Data Science and Deep Learning with Python  </p>
+
+		  </div>
+			<div class="col-md">
+				<h3 class="signature h5" style="color: white">Awards</h3>
+				<p style="color:#A2A4AA "><span style="color:#fc0fc0 ">Deputy Principal’s Award</span> (Academic Excellence), <br>Heriot Watt University</p>
+				<p style="color:#A2A4AA "><span style="color:#fc0fc0 ">Best Sixth Former of the Year,</span> <br>The Westminster School, Dubai</p>
+		  </div>
+			<div class="col-md">
+				<h3 class="signature h5" style="color: white">Additional Information</h3>
+				<p style="color:#A2A4AA "> <span style="color:#fc0fc0 ">Proficient in English & Urdu.</span></p>
+				<p style="color:#A2A4AA "> <span style="color:#fc0fc0 ">Interests: -</span> <br>squash, <br>table tennis,<br>billiards, <br>hockey</p>
+		  </div>
+		</div>
 </div>
 </body>
 </html>
