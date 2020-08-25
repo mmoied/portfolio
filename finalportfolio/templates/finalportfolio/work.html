@@ -21,30 +21,39 @@ max-width: 40px
 }
   </style>
 </head>
-<body style="background-color: rgba(45,49,62,0.9);">
-  <h1 class="text-center" style="color: white;font-size: 40px";>Muhammad Moied</h1>
-   <div class="container text-center" style="margin-top: 2%;background-color: #2d313e;border-radius: 20px">
-  <ul class="nav justify-content-center">
-    <li class="nav-item">
-      <a class="nav-link" style="color:#fc0fc0"href="{% url 'finalportfolio:index' %}">Home</a>
+<body style="background-color:#222831;"> 
+   <div class="container text-center" style="margin-top: 2%;background-color: #393e46;border-radius: 20px">
+  <nav class="navbar navbar-expand-md navbar-dark">
+  <!-- Brand -->
+  <a class="navbar-brand" href="{% url 'finalportfolio:index' %}" style="font-size: 30px">Muhammad Moied</a>
+
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" name="menu">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+      <a class="nav-link" style="color:#00dfeb"href="{% url 'finalportfolio:work' %}">Work Experience</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link disabled" style="color: white" href="#">Work Experience</a>
+      <a class="nav-link"style="color: #00dfeb" href="{% url 'finalportfolio:projects' %}">Projects</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link"style="color: #fc0fc0" href="#">Projects</a>
+      <a class="nav-link " style="color: #00dfeb" href="{% static 'polls/Muhammad Moied.pdf' %}" target="_blank">Open CV</a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link " style="color: #fc0fc0" href="{% static 'polls/Muhammad Moied.pdf' %}" target="_blank">Open CV</a>
-    </li>
-  </ul>
+    </ul>
+  </div> 
+</nav>
 </div>
-  <div class="container text-left mw-75" style="margin-top: 2%;background-color: #2d313e;border-radius: 20px;color: white;padding: 20px">
-  	    	<h1 class="signature h1" style=" color: white ;">Grandeur Luxury</h1>
+  <div class="container text-left mw-75" style="margin-top: 2%;background-color: #393e46;border-radius: 20px;color: white;padding: 20px">
+  	    	<h1 class="signature h2" style=" color: white ;">Grandeur Luxury</h1>
    <div class="row">
     <div class="col-sm-8">
     	<p>
-		<p style="color: #fc0fc0;font-size: 20px">Flutter Developer</p>
+		<p style="color: #00dfeb;font-size: 20px">Flutter Developer</p>
     <ul>
       <li>Worked on a limousine service app bundle using Flutter, Dart and Typescript</li>
        <li>Consisted of Customer, Driver and Admin android, ios and web app</li>
@@ -54,22 +63,22 @@ max-width: 40px
             </ul>
             Links To App
             <br>
-            <a class="nav-link"style="color: #fc0fc0" href="https://play.google.com/store/apps/details?id=com.grandeur.taxiDriver" target="_blank">Android Driver App</a>
-            <a class="nav-link"style="color: #fc0fc0" href="https://play.google.com/store/apps/details?id=com.grandeur.taxiCustomer" target="_blank">Android Customer App</a>
-              <a class="nav-link"style="color: #fc0fc0" target="_blank"href="https://apps.apple.com/ae/app/grandeur-limousine/id1522503218">iOS Customer App</a>
+            <a class="nav-link"style="color: #00dfeb" href="https://play.google.com/store/apps/details?id=com.grandeur.taxiDriver" target="_blank">Android Driver App</a>
+            <a class="nav-link"style="color: #00dfeb" href="https://play.google.com/store/apps/details?id=com.grandeur.taxiCustomer" target="_blank">Android Customer App</a>
+              <a class="nav-link"style="color: #00dfeb" target="_blank"href="https://apps.apple.com/ae/app/grandeur-limousine/id1522503218">iOS Customer App</a>
           </p>
     </div>
     <div class="col-sm-4" >
-    	<span style="color:#fc0fc0;">June. 1, 2020 - July. 31, 2020</span>
+    	<span style="color:#00dfeb;">June. 1, 2020 - July. 31, 2020</span>
     </div>
   </div>
 </div>
-  <div class="container text-left mw-75" style="margin-top: 2%;background-color: #2d313e;border-radius: 20px;color: white;padding: 20px">
-          <h1 class="signature h1" style=" color: white ;">Al Moiz Textiles</h1>
+  <div class="container text-left mw-75" style="margin-top: 2%;background-color: #393e46;border-radius: 20px;color: white;padding: 20px">
+          <h1 class="signature h2" style=" color: white ;">Al Moiz Textiles</h1>
    <div class="row">
     <div class="col-sm-8">
       <p>
-    <p style="color: #fc0fc0;font-size: 20px">Django Web Developer</p>
+    <p style="color: #00dfeb;font-size: 20px">Django Web Developer</p>
     <ul>
       <li>Account and Financial Analysis System</li>
        <li>Designed database and UI</li>
@@ -79,7 +88,7 @@ max-width: 40px
           </p>
     </div>
     <div class="col-sm-4" >
-      <span style="color:#fc0fc0;">Jan. 1, 2019 - June 30, 2019</span>
+      <span style="color:#00dfeb;">Jan. 1, 2019 - June 30, 2019</span>
     </div>
   </div>
 </div>
