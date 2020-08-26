@@ -10,4 +10,4 @@ class Projects(models.Model):
 	skills = models.CharField(max_length=200)
 	description = models.CharField(max_length=2000)
 	ongoing = models.BooleanField(default=True)
-
+	image = models.ImageField(upload_to="static/finalportfolio/images",default="image.jpeg")
